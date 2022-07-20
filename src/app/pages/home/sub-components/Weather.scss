@@ -1,0 +1,106 @@
+.weather {
+ 
+    i {
+        color:white;
+    }
+
+    .current-forecast {
+        position: relative;
+        .current-description-container {
+            .current-description {
+                text-transform: capitalize;
+                display: inline-block;
+            }
+        }
+
+        img.current-forecast-icon {
+            height: 200px;
+            width: auto;
+            object-fit: cover;
+            position: absolute;
+        }
+
+        .current-forecast-icon-container {
+           text-align: center;
+
+            .current-forecast-icon {
+                display: block;
+                margin: 150px auto;
+                width: 350px;
+                height: auto;
+            }
+        }
+    }
+
+    .current-conditions {
+        margin: auto 0;
+        text-align: left;
+
+        div.current-date {
+            font-size: 40px;
+            margin-bottom: 60px;
+        }
+
+        div {
+            font-size: 28px;
+            margin: 15px 0;
+        }
+
+        .weather-advisory {
+
+            max-height: 100px;
+
+            small {
+                display: block;
+                max-height: 200px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            i {
+                color: red;
+            }
+        }
+    }
+
+    .daily-forecast {
+        margin-top: 200px;
+        display: inline-block;
+        text-align: center;
+        padding: 3px;
+        width: calc(100% / 7);
+        text-transform: capitalize;
+
+        img.daily-forecast-icon {
+            height: 150px;
+            width: auto;
+            display: block;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+
+        .daily-forecast-title, .daily-forecast-description  {
+            font-weight: bold;
+        }
+
+        .daily-forecast-title {
+            font-size: 36px;
+        }
+
+        .daily-forecast-description {
+            font-size: 28px;
+        }
+
+        .daily-forecast-temperature {
+            font-size: 40px;
+        }
+    }
+
+    .decorator-font-size-2x {
+        font-size: 3vw;
+    }
+
+    .decorator-font-size-1x {
+        font-size: 2vw;
+    }
+}

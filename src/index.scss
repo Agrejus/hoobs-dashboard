@@ -1,0 +1,26 @@
+.font-fit {
+    font-size: 18vw;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+html, body, #root {
+    background-color: rgb(20, 20, 20);
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    height: inherit;
+}

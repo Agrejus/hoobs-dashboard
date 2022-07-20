@@ -1,0 +1,46 @@
+.hourly-forecast {
+    .hourly-forecast-item-label {
+        position: relative;
+
+        div.label {
+            display: inline-block;
+            transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            font-size: 20px;
+        }
+
+        img.hourly-forecast-icon {
+            visibility: hidden;
+        }
+
+        div.hourly-forecast-time {
+            visibility: hidden;
+        }
+
+        div.hourly-forecast-temperature {
+            visibility: hidden;
+        }
+    }
+
+    .hourly-forecast-item {
+        padding: 20px 35px;
+        display: inline-block;
+        vertical-align: top;
+        border-bottom: 1px solid gray;
+
+        .hourly-forecast-icon {
+            height: 100px;
+            width: auto;
+        }
+
+        .hourly-forecast-time {
+            font-size: 24px;
+        }
+
+        .hourly-forecast-temperature {
+            font-size: 24px;
+        }
+    }
+}
