@@ -24,6 +24,8 @@
 
 /*! ./src/index.tsx */
 
+/*! ./touch-screen.scss */
+
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@mui/material/Grid/Grid.js */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */
@@ -53,6 +55,8 @@
 /*! all exports used */
 
 /*! exports used: render */
+
+/*! import() */
 
 /*! no exports provided */
 

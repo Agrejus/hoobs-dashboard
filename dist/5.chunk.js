@@ -1,0 +1,3 @@
+/*! For license information please see 5.chunk.js.LICENSE.txt */
+(this.webpackJsonp=this.webpackJsonp||[]).push([[5],{228:function(o,n,s){(n=s(9)(!1)).push([o.i,"html,body,#root{cursor:none;user-select:none}\n",""]),o.exports=n},229:function(o,n,s){var t=s(228);"string"===typeof t&&(t=[[o.i,t,""]]);var e={hmr:!0,transform:undefined,insertInto:void 0};s(10)(t,e);t.locals&&(o.exports=t.locals)}}]);
+//# sourceMappingURL=5.chunk.js.map
